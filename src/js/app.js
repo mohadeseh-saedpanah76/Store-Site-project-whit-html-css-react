@@ -7,17 +7,17 @@ const menuLink = document.querySelectorAll('.menu__link')
 
 /*============ Active Link nav ============ */
 
-function activeLinkNav (){
-    navLink.forEach((item)=>{
-        item.classList.remove('active-link-nav')
-    })
+// function activeLinkNav (){
+//     navLink.forEach((item)=>{
+//         item.classList.remove('active-link-nav')
+//     })
 
-    this.classList.add('active-link-nav')
-}
+//     this.classList.add('active-link-nav')
+// }
 
-navLink.forEach((item)=>{
-    item.addEventListener('click' , activeLinkNav)
-})
+// navLink.forEach((item)=>{
+//     item.addEventListener('click' , activeLinkNav)
+// })
 
 /*============ Active link menu ============ */
 
