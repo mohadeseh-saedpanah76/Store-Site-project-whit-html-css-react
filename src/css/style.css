@@ -964,14 +964,248 @@ img{
          grid-template-columns: repeat(4,1fr);
          align-items: center;
          justify-content: center;
-         gap: 1.5rem;
+         gap: 1rem;
      }
 }
+
 
 @media screen and (min-width:1400px){
     .container{
         margin: auto;
         left: 0;
         right: 0;
+    }
+}
+
+
+/* End Of Home Page */
+
+
+/* ============ PAGE ABOUT ============*/
+
+.about__banner{
+    background-image: url('/img/about/banner.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 59vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.about__title{
+    color: var(--text-color-white);
+    font-size: 2rem;
+    margin-bottom: 1.25rem ;
+}
+
+.about__description{
+    color: var(--text-color-white);
+    font-size: var(--normal-font-siza);
+}
+
+.about__info{
+    margin: 3rem 0;
+}
+
+.about__data{
+    margin: 2rem 0 3rem;
+}
+
+.about__data-title{
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.about__app-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about__app-video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 ;
+}
+
+.about__app-video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Responsive About Paga */
+
+@media screen and (min-width:650px){
+    .about__info{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+}
+
+
+/* End of About page */
+
+
+/* ============ Contact Page ============ */
+
+.contact__banner{
+    background-image: url('/img/about/banner.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 59vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.contact__title{
+    color: var(--text-color-white);
+    font-size: 2rem;
+    margin-bottom: 1.25rem ;
+}
+
+.contact__description{
+    color: var(--text-color-white);
+    font-size: var(--normal-font-siza);
+}
+
+.contact{
+    margin: 3rem 2rem;
+}
+
+.contact__data{
+    margin-bottom: 1.5rem;
+}
+
+.contact__data-title,
+.contact__data h1,
+.contact__data h3{
+    margin-bottom: 1rem;
+}
+
+.contact__data-title{
+    font-size: var(--small-font-size);
+}
+
+.contact__data h1{
+    font-size: 1.25rem;
+}
+.contact__data h3{
+    font-size: var(--small-font-size);
+    color: #000;
+}
+
+.contact__item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .75rem;
+}
+
+.contact__icon{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.contact__item p{
+    font-size: var(--smaller-font-size) ;
+}
+
+
+/* contact form */
+
+.contact__form-container{
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+.form__details p{
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem ;
+}
+
+.form__details h2{
+    font-size: 1.25rem;
+    margin-bottom: 1rem ;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.form__input input,
+textarea{
+    outline: none;
+    border: 1px solid #e1e1e1;
+    padding: .75rem .75rem;
+    font-size: var(--smaller-font-size);
+}
+
+textarea{
+    height: 20vh;
+    resize: none;
+}
+
+.form__details button{
+    margin-top: 1.5rem;
+}
+
+.people{
+    margin-top: 1.5rem;
+}
+
+.people__data{
+    display: flex;
+    align-items: flex-start;
+    column-gap: .75rem;
+    margin-bottom: 2rem;
+}
+.people__data img{
+    width: 60px;
+}
+
+.people__info h3{
+    font-size: var(--small-font-size);
+    color: #000;
+}
+
+.people__details-item{
+    font-size: var(--smaller-font-size);
+    margin-bottom: .5rem;
+}
+
+
+/* REsponsive Contact Page */
+@media screen and (min-width:700px){
+    .contact__container{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+
+    .contact__icon{
+        font-size: 2rem;
+    }
+
+    .contact__form-container{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+    }
+}
+
+@media screen and (min-width:900px){
+
+    .contact__form-container{
+        column-gap: 10rem;
     }
 }
