@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--============ BOXICONS ============-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--============ CSS ===========-->
+      <link rel="stylesheet" href="/src/css/style.css">
+
+    <title>Store Site</title>
+</head>
+<body>
+    <!--============ HEADER ============-->
+    <header class="header">
+        <nav class="nav container div">
+            <img src="/img/logo.png" alt="" class="header__logo">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link ">
+                            <i class='bx bx-user nav__menu-icon'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-store nav__menu-icon'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-search nav__menu-icon'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-cart-alt nav__menu-icon'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__icon">
+                 <!-- Theme change button -->
+             <i class='bx bx-moon change-theme' id="theme-button"></i>
+             
+             <!-- hamburger menu -->
+             <a href="#" class="hamburger__button"><i class='bx bx-menu'></i></a>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="mobile__menu">
+                <div class="menu__container">
+                    <i class='bx bx-x menu__icon-close'></i>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link active-link-menu">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/public/about.html" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/public/contact.html" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--============Contact Banner ============-->
+
+    <section class="contact__banner">
+        <h2 class="contact__title">#Let's Talk</h2>
+        <p class="contact__description">
+            Leave a message. We love to hear from you!
+        </p>
+    </section>
+
+    <!--============ Contact Data ============-->
+
+    <section class="contact">
+        <div class="contact__container container grid">
+            <div class="contact__data">
+                <p class="contact__data-title"> GET IN TOUCH</p>
+    
+                <h1>
+                    Visit one of our agenncy location or contact us today
+                </h1>
+    
+                <h3>
+                    Head Office
+                </h3>
+    
+                <div class="contact__info">
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <i class='bx bx-map-alt contact__icon'></i>
+                            <p>S6 Glassford street Glasgow G1 1UL New York</p>
+                        </li>
+    
+                        <li class="contact__item">
+                            <i class='bx bx-envelope contact__icon'></i>
+                            <p>contact@example.com</p>
+                        </li>
+    
+                        <li class="contact__item">
+                            <i class='bx bx-phone contact__icon'></i>
+                            <p>contact@example.com</p>
+                        </li>
+    
+                        <li class="contact__item">
+                            <i class='bx bx-time-five contact__icon'></i>
+                            <p>Monday to Saturday: 9.00 to 16 pm</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="contact__location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.39393742893384!2d50.850115128874776!3d34.
+                6256116071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f93bb55c35c82d5%3A0x5ee64953d48728a4!2z2YLZgdm
+                EINmIINiv2LPYqtqv2YrYsdmHINm-2KfZgyDYs9ix2LTYqg!5e0!3m2!1sen!2suk!4v1661691447873!5m2!1sen!2suk" width="100%" 
+                height="350px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--============ Contact Form ============-->
+    <section class="contact__form">
+        <div class="contact__form-container container grid">
+            <div class="form__details">
+                <p>LEAVE A MESSAGE</p>
+                <h2> We Love to hear from you</h2>
+    
+                <div class="form__input">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                </div>
+                <button class="button"> Submit</button>
+            </div>
+    
+            <div class="people">
+                <div class="people__data">
+                    <img src="/img/people/1.png" alt="">
+                    <div class="people__info">
+                        <h3>
+                            John Doe
+                        </h3>
+
+                        <div class="people__details">
+                            <ul class="people__details-list">
+                                <li class="people__details-item">Senior Markrting Manager</li>
+                                <li class="people__details-item">Phone : +000 123 000 7788</li>
+                                <li class="people__details-item">Email : contact@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="people__data">
+                    <img src="/img/people/2.png" alt="">
+                    <div class="people__info">
+                        <h3>
+                            John Doe
+                        </h3>
+
+                        <div class="people__details">
+                            <ul class="people__details-list">
+                                <li class="people__details-item">Senior Markrting Manager</li>
+                                <li class="people__details-item">Phone : +000 123 000 7788</li>
+                                <li class="people__details-item">Email : contact@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="people__data">
+                    <img src="/img/people/3.png" alt="">
+                    <div class="people__info">
+                        <h3>
+                            John Doe
+                        </h3>
+
+                        <div class="people__details">
+                            <ul class="people__details-list">
+                                <li class="people__details-item">Senior Markrting Manager</li>
+                                <li class="people__details-item">Phone : +000 123 000 7788</li>
+                                <li class="people__details-item">Email : contact@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!--============ NEWS LETTER ============-->
+    <section class="newsletter">
+        <div class="news__container grid">
+           <div class="container ">
+            <div class="news__data">
+                <h2 class="news__title">
+                    Sign Up For Newsletter
+                </h2>
+
+                <p class="news__description">
+                    Get E-mail updates about our latest shop and <span>special offers</span>
+                </p>
+            </div>
+
+            <div class="news__form">
+                <input type="text" class="news__input" placeholder="Your Email Address">
+
+                <button class="news__button">Sign Up</button>
+
+            </div>
+           </div>
+        </div>
+    </section>
+     </main>
+
+    <!--============ FOOTER ============-->
+    <footer class="footer">
+        <div class="footer__container grid container">
+            <div class="footer__data div">
+                <div class="footer__col contact">
+                    <img src="/img/logo.png" alt="" class="footer__logo">
+                    <h4 class="footer__title ">Contact</h4>
+
+                    <div class="footer__info">
+                        <ul class="footer__list">
+                            <p><strong>Address : </strong> 562 Wellington Road, Street 22, San Francisco</p>
+                            <p><strong>Phone : </strong> +01 2222 365 /(+91) 01 23457789</p>
+                            <p><strong>Hours :</strong> 10:00 - 18:00 Mon ~ sat</p>
+                        </ul>
+                    </div>
+
+                    <div class="follow">
+                        <h4 class="footer__title">
+                            follow us
+                        </h4>
+                        <div class="follow__icon">
+                            <ul class="follow__icon-list">
+                                <i class='bx bxl-facebook'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-instagram'></i>
+                                <i class='bx bxl-pinterest-alt'></i>
+                                <i class='bx bxl-youtube'></i>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__col about">
+                    <h4 class="footer__title"> About</h4>
+
+                    <div class="footer__info">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">About us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Delivery Information</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Terms & Conditions</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__col account">
+                    <h4 class="footer__title">My Account</h4>
+
+                    <div class="footer__info">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Sign In</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">View Cart</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">My wishlist</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Track My Order</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__col installapp">
+                    <h4 class="footer__title">
+                        Install App
+                    </h4>
+
+                    <p class="footer__text">
+                        From App Store or google play
+                    </p>
+
+                    <div class="footer__app-img">
+                        <img src="/img/pay/app.jpg" alt="">
+                        <img src="/img/pay/play.jpg" alt="">
+                    </div>
+
+                    <p class="footer__text">Secured Payment Gateways</p>
+                    <img src="/img/pay/pay.png" alt="" class="installapp__img">
+                </div>
+            </div>
+
+            <div class="footer__copy">
+                <p>2021, Tech2 etc - Html CSS Ecommerce Template</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!--============ SCRIPT ============-->
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
