@@ -3,8 +3,18 @@ const mobileMenu = document.querySelector('.menu__container')
 const mobileCloseBtn = document.querySelector('.menu__icon-close')
 const navLink = document.querySelectorAll('.nav__link')
 const menuLink = document.querySelectorAll('.menu__link')
+const smallImg = document.querySelectorAll('.smallimg')
+const mainImg = document.querySelector('.main-img')
 
 
+
+/*==== Change Src mainimg in single product page ==== */
+
+smallImg.forEach((item)=>{
+    item.addEventListener('click' , ()=>{
+        mainImg.src = item.src
+    })
+})
 /*============ Active Link nav ============ */
 
 // function activeLinkNav (){
