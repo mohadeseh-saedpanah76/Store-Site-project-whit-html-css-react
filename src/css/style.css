@@ -694,7 +694,7 @@ img{
 
 /* ============ Footer ============ */
 .footer__container{
-    margin: 2rem 2.5rem ;
+   margin: 2rem 2.5rem;
 }
 .footer__data{
   display: flex;
@@ -1287,7 +1287,7 @@ textarea{
     }
 
     .contact__icon{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .contact__form-container{
